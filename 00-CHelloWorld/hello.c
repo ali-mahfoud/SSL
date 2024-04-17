@@ -8,10 +8,10 @@ int main(void) {
   
   // Ejecute el programa con la salida redireccionada a un archivo
   // output.txt; verifique su contenido.
-  char filename[] = "output.txt";
-  FILE* outputFile = fopen(filename, "w");
-  fprintf(outputFile, "%s\n", expectedOutput);
-  fclose(outputFile);
+  // char filename[] = "output.txt";
+  // FILE* outputFile = fopen(filename, "w");
+  // fprintf(outputFile, "%s\n", expectedOutput);
+  // fclose(outputFile);
 
   return 0;
 }
